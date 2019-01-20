@@ -206,7 +206,6 @@ input, select, textarea {
 				-webkit-animation: bg 45s linear infinite;
 				-ms-animation: bg 45s linear infinite;
 				animation: bg 45s linear infinite;
-				animation-fill-mode: forwards;
 				opacity: 1;
 				visibility: visible;
 				z-index: 1;
@@ -219,11 +218,10 @@ input, select, textarea {
 				@media screen and (max-width: 1280px) {
 
 					#bg div.visible {
-						-moz-animation: bg 0s linear;
-						-webkit-animation: bg 0s linear;
-						-ms-animation: bg 0s linear;
-						animation: bg 0s linear;
-						animation-fill-mode: forwards;
+						-moz-animation: bg 29.25s linear infinite;
+						-webkit-animation: bg 29.25s linear infinite;
+						-ms-animation: bg 29.25s linear infinite;
+						animation: bg 29.25s linear infinite;
 					}
 
 				}
@@ -231,11 +229,10 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#bg div.visible {
-						-moz-animation: bg 0s linear;
-						-webkit-animation: bg 0s linear;
-						-ms-animation: bg 0s linear;
-						animation: bg 0s linear;
-						animation-fill-mode: forwards;
+						-moz-animation: bg 18s linear infinite;
+						-webkit-animation: bg 18s linear infinite;
+						-ms-animation: bg 18s linear infinite;
+						animation: bg 18s linear infinite;
 					}
 
 				}
@@ -372,13 +369,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #b4b11c;
+		color: #1cb495;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #b4b11c !important;
+			color: #1cb495 !important;
 			text-decoration: none;
 		}
 
@@ -657,7 +654,7 @@ input, select, textarea {
 			}
 
 			form .message.success {
-				color: #b4b11c;
+				color: #1cb495;
 			}
 
 				form .message.success:before {
@@ -819,7 +816,7 @@ input, select, textarea {
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #b4b11c;
+			border-color: #1cb495;
 		}
 
 	select {
@@ -911,16 +908,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #b4b11c;
-			border-color: #b4b11c;
+			background: #1cb495;
+			border-color: #1cb495;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #b4b11c;
-			box-shadow: 0 0 0 2px #b4b11c;
+			border-color: #1cb495;
+			box-shadow: 0 0 0 2px #1cb495;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -971,7 +968,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #b4b11c;
+		background-color: #1cb495;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -991,7 +988,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #cac71f;
+			background-color: #1fcaa7;
 		}
 
 		input[type="submit"]:active,
@@ -999,7 +996,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #cac71f;
+			background-color: #199e83;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
